@@ -1,0 +1,90 @@
+html, body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+.board {
+    width: 100%;
+    height: 100%;
+    background: rgb(197,222,234); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 31%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(197,222,234,1)), color-stop(31%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    box-sizing: border-box;
+}
+
+.bar {
+    height: 40%;
+    width: 5%;
+    background: rgb(252,234,187); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(252,234,187,1)), color-stop(50%,rgba(252,205,77,1)), color-stop(51%,rgba(248,181,0,1)), color-stop(100%,rgba(251,223,147,1))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.ball {
+    background: rgb(205,235,142); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(205,235,142,1) 0%, rgba(165,201,86,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(205,235,142,1)), color-stop(100%,rgba(165,201,86,1))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(205,235,142,1) 0%,rgba(165,201,86,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(205,235,142,1) 0%,rgba(165,201,86,1) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(205,235,142,1) 0%,rgba(165,201,86,1) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(205,235,142,1) 0%,rgba(165,201,86,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border: 10px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scoreboard {
+    position: absolute;
+    background-color: navy;
+    width: 50%;
+    height: 20%;
+    left: 25%;
+    top: 0%;
+    border: 5px solid black;
+}
+.player1 {
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background: #FFFFFF;
+}
+.player2 {
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    width: 20%;
+    height: 100%;
+    background: #FFFFFF;
+}
+.label {
+
+}
+.score {
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    background-color: aqua;
+}

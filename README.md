@@ -1,2 +1,3 @@
-# pong
-Game of Pong
+##Pong##
+
+The game of pong.
